@@ -12,7 +12,7 @@ function bookService(){
 
       const fullMsg = `Namaste Sharma Electronics! 
       Name :${name} 
-      Phone :(${phone}).
+      Phone :${phone}.
       Inquiry: ${msg}`;
       const waUrl = `https://wa.me/917240318709?text=${encodeURIComponent(fullMsg)}`;
 
