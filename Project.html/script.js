@@ -10,7 +10,10 @@ function bookService(){
       const phone = document.getElementById('custPhone').value;
       const msg = document.getElementById('custMsg').value;
 
-      const fullMsg = `Namaste Sharma Electronics! Mera naam ${name} hai (${phone}). Inquiry: ${msg}`;
+      const fullMsg = `Namaste Sharma Electronics!
+      Name  : ${name} 
+      Phone :(${phone}). 
+      Inquiry: ${msg}`;
       const waUrl = `https://wa.me/917240318709?text=${encodeURIComponent(fullMsg)}`;
 
       window.open(waUrl, '_blank');
